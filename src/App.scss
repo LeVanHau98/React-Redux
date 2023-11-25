@@ -1,0 +1,101 @@
+body{
+      padding: 0;
+      margin: 0;
+}
+
+
+
+.header-component{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgb(64, 64, 218);
+      color: white;
+      height: 70px;
+      padding: 5px 20px;     
+      &_search{
+            display: flex;      
+            align-items: center;
+            column-gap: 1.5rem;
+      }
+    
+}
+.sidebar-component{
+      background-color: burlywood;
+      width: 250px;
+      height: calc(100vh - 70px);
+    
+
+}
+
+
+.sidebar-component_menu{
+      
+      &-item{
+            list-style: none;
+            border-bottom: 2px solid black;
+           
+            &_active{
+                 background-color: blue;
+            }
+      }
+}
+
+
+// .browser-router{
+//       display: flex;
+//       column-gap: 50px;
+//       &_sidebar{
+//             width: 20%;
+//             background-color: rgb(224, 108, 24);
+//       }
+//       &_router{
+//             width: 70%;
+//       }
+// }
+
+
+
+.task-container{
+      border: 2px solid black;
+      border-radius: 10px;
+      padding: .5rem;
+      margin: .5rem;
+      &_title{
+            font-weight: 700;
+      }
+      &_divider{
+            border-bottom:  1px solid black;
+      }
+      &_status{
+            font-weight: 700;
+            color: green;
+      }
+      &_des-title{
+            font-weight: 700;
+      }
+}
+
+
+.main-content-task{
+      display: flex;
+      flex-wrap: wrap;
+}
+
+
+
+.form-container{
+      width: 400px;
+      margin: 1rem;
+}
+.task-form{
+      display: flex;
+      margin-bottom: .5rem;
+      &_label{ 
+            min-width: 110px;
+
+}
+}
+
+
+
